@@ -1,0 +1,14 @@
+<!--pages/login/login.wxml-->
+<view class='login'>登录</view>
+<view class='leave-box'>
+用户：
+<input type="text" bindinput='getUser' value='{{author}}' class='input'></input>
+</view>
+
+<view class='leave-box'>密码：
+<input type="text" bindinput='getPassword' value='{{detail}}' class='input'></input>
+<button bindtap='login'type="primary" size="mini" >登录</button>
+</view>
+
+
+ 

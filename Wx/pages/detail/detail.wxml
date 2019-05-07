@@ -1,0 +1,9 @@
+<!--pages/detail/detail.wxml-->
+<view>标题：{{list.title}}</view>
+
+<view class="divLine1"></view>
+<view>作者：{{list.author}}</view>
+<view class="divLine1"></view>
+<view>时间：{{list.time}}</view>
+<view class="divLine1"></view>
+<view>内容：{{list.detail}}</view>

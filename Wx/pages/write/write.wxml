@@ -1,0 +1,14 @@
+<!--pages/write/write.wxml-->
+<view class='view'>
+标题：
+<input type="text" bindinput='getTitle' value='{{title}}' style='width:250px;border:1px solid #cccccc'></input>
+</view>
+<view class='view'>
+作者：
+<input type="text" bindinput='getAuthor' value='{{author}}' style='width:250px;border:1px solid #cccccc'></input>
+</view>
+<view class='view'>
+内容：
+<input type="text" bindinput='getDetail' value='{{detail}}' style='width:250px; height: 350px;;border:1px solid #cccccc'></input>
+</view>
+<button bindtap='sendMessage' >发送</button>

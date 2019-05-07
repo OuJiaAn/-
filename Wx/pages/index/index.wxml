@@ -1,0 +1,16 @@
+<text  wx:if="{{list.length==0}}">暂无留言...^_^</text>
+
+
+<button class='button' bindtap='gotoWrite'   >留言</button>
+<view class="divLine2"></view>
+<view wx:for="{{list}}" >
+
+<button bindtap='onPostTap' data-postId="{{index}}">
+  <view class='id'>{{item.id}}</view>
+  <view class='time'>{{item.time}}</view>
+  <view class='title'>{{item.title}}</view>
+  </button>
+  <!--<view class="divLine1"></view>-->
+  <view class="divLine2"></view>
+</view>
+
